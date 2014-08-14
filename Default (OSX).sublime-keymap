@@ -1,0 +1,22 @@
+[
+  {
+    "keys": ["super+l"],
+    "command": "show_overlay",
+    "args": {
+      "overlay": "goto",
+      "text": ":"
+    }
+  },
+  {
+    "keys": ["alt+super+m"],
+    "command": "markdown_preview",
+    "args": {
+        "target": "browser",
+        "parser":"markdown"
+    }
+  },
+  {
+    "keys": ["f5"],
+    "command": "revert"
+  }
+]

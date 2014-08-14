@@ -1,0 +1,9 @@
+{
+    "env": {
+        "PYTHONPATH": "/Users/bslatkin/projects/effectivepython/lib"
+    },
+    "cmd": ["/Users/bslatkin/projects/effectivepython/tools/run_markdown.py",
+            "--overwrite",
+            "$file"],
+    "selector": "text.html.markdown.gfm"
+}
