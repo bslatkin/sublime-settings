@@ -1,35 +1,21 @@
 {
-    "color_scheme": "Packages/Color Scheme - Default/All Hallow's Eve.tmTheme",
-    "ensure_newline_at_eof_on_save": true,
-    "fold_buttons": false,
-    "font_face": "Monaco",
-    "font_options":
-    [
-        "no_antialias",
-        "bold",
-        "italic"
-    ],
-    "font_size": 13.0,
-    "highlight_line": true,
-    "ignored_packages":
-    [
-        "Vintage",
-        "Alternative Autocompletion"
-    ],
-    "rulers":
-    [
-        80
-    ],
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true,
-    "use_tab_stops": true,
-    "word_wrap": true,
-    "wrap_width": 80,
-    "file_exclude_patterns":
-    [
-        ".DS_Store",
-        "._*",
-        "*~"
-    ]
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"dark_color_scheme": "Monokai.sublime-color-scheme",
+	"light_color_scheme": "Monokai.sublime-color-scheme",
+	"theme": "Default Dark.sublime-theme",
+	"font_size": 19,
+	"auto_complete": false,
+	"auto_complete_include_snippets": false,
+	"rulers": [80],
+	"trim_trailing_white_space_on_save": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"mini_diff": false,
+	"fold_buttons": false,
+	"gutter": true,
+	"line_numbers": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": false,
 }

@@ -1,0 +1,37 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+  	"inhibit_snippet_completions": true,
+  	"inhibit_word_completions": false,
+	"clients": {
+		"genai-lsp": {
+			"enabled": true,
+			"command": [
+				"python3",
+				"-m",
+				"pylsp",
+				"-v",
+			],
+			"env": {
+				"PYTHONPATH": "/Users/bslatkin/work/genai-lsp/upstream:/Users/bslatkin/work/genai-lsp/upstream/plugins",
+				"PATH": "/Users/bslatkin/work/genai-lsp/bin",
+			},
+			"selector": "source",
+			"initializationOptions": {
+				"pylsp": {
+					"plugins": {
+						"codegemma_completion": {
+							"enabled": true,
+							"create_completion_options": {
+								"max_tokens": 100,
+								"stop": ["<|file_separator|>", "\n\n"],
+								"temperature": 0,
+								"top_p": 0.5,
+								"top_k": 50,
+							}
+						},
+					},
+				},
+			},
+		},
+	},
+}

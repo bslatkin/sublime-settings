@@ -1,1 +1,1 @@
-My settings for <http://www.sublimetext.com/2>
+My settings for <http://www.sublimetext.com/>
